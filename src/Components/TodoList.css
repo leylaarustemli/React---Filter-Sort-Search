@@ -1,0 +1,42 @@
+.footer{
+    display: flex;
+    gap: 60px;
+    padding: 10px;
+    color: grey;
+    font-size: 14px;
+}
+.center-footer{
+    display: flex;
+    gap: 10px;
+ 
+}
+.todolist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.todo{
+    background-color: white;
+}
+ul li{
+    list-style: none;
+    border: 1px solid E3E4F1;
+    padding: 18px;
+    border-bottom: 1px solid rgb(204, 196, 196);
+    width: 500px;
+    display: flex;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.todolist{
+    border: 1px solid rgb(204, 196, 196);
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.fa-xmark{
+    color: red;
+    font-size:18px ;
+}
